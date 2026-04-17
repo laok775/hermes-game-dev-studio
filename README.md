@@ -197,12 +197,12 @@ hermes-game-dev-studio/
 
 ### **示例 1: 头脑风暴游戏创意**
 
-**主人输入：**
+**用户输入：**
 ```
-米米，我想做一个 Roguelike 卡牌游戏，帮我头脑风暴一下
+帮我头脑风暴一个 Roguelike 卡牌游戏创意
 ```
 
-**米米执行：**
+**Agent 执行：**
 ```python
 # 调用游戏设计师 Agent
 delegate_task(
@@ -223,12 +223,12 @@ delegate_task(
 
 ### **示例 2: 生成 GDD 文档**
 
-**主人输入：**
+**用户输入：**
 ```
 创意不错，生成完整的 GDD 文档
 ```
 
-**米米执行：**
+**Agent 执行：**
 ```python
 # 使用 GDD 模板生成文档
 write_file(
@@ -236,9 +236,9 @@ write_file(
     content=render_template(
         template="templates/GDD_Template.md",
         variables={
-            "game_name": "主人确认的游戏名称",
-            "core_loop": "米米生成的核心循环",
-            "systems": "米米设计的游戏系统",
+            "game_name": "用户确认的游戏名称",
+            "core_loop": "Agent 生成的核心循环",
+            "systems": "Agent 设计的游戏系统",
             # ... 其他字段
         }
     )
@@ -247,12 +247,12 @@ write_file(
 
 ### **示例 3: 开发功能（强制 QA）**
 
-**主人输入：**
+**用户输入：**
 ```
 开始实现卡牌抽取系统
 ```
 
-**米米执行：**
+**Agent 执行：**
 ```python
 # 1. 全栈工程师开发
 dev_result = delegate_task(
