@@ -49,7 +49,7 @@
 ## 🏗️ 团队架构
 
 ```
-小虾米 (Hermes 总控)
+Hermes Agent (总控)
     │
     ├── Tier 2: 产品开发团队 (4 人)
     │   ├── 🎨 游戏设计师 ────→ delegate_task(toolsets=['web','file'])
