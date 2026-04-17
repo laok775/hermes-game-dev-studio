@@ -8,6 +8,8 @@
 [![Hermes Agent](https://img.shields.io/badge/Hermes-v0.8.0+-blue)](https://github.com/NousResearch/hermes-agent)
 [![Game Dev](https://img.shields.io/badge/Game-Dev-orange)](https://github.com/topics/game-development)
 
+**🌍 Language / 语言:** [中文](README.md) | [English](README_en.md)
+
 ---
 
 ## 📋 目录
